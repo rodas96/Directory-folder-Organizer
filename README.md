@@ -8,9 +8,8 @@ Basically this script asks for input for a directory or a folder in a directory 
 
 Example:
 
-<img width="661" alt="image" src="https://github.com/rodas96/Directory-folder-Organizer/assets/108375741/09089129-a4b9-4f67-a2dc-a78e8b288fd9">
+<img width="571" alt="image" src="https://github.com/rodas96/Directory-folder-Organizer/assets/108375741/e2253516-066a-40f8-97a6-731e296b1f4a">
 
-<img width="145" alt="image" src="https://github.com/rodas96/Directory-folder-Organizer/assets/108375741/dacd654a-6640-40b9-ac29-70b4bafe62b3">
 
 
 
