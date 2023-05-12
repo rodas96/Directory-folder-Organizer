@@ -39,9 +39,13 @@ def organize_directory(directory):
 
     print("Organization completed.")
 
-directory = '../'
-directory = os.path.join(directory, input("Enter the name of the directory to organize (ex: Desktop, Documents) or Folder ex(Documents/FolderName): "))
 
-organize_directory(directory)
+directory = input("Enter the name of the directory to organize (ex:Desktop, Documents) or Folder (ex:Documents/FolderName): ")
+directory = os.path.abspath(os.path.expanduser(directory))
+if not os.path.exists(directory):
+    print(r"If Documents or Desktop doesn't exist please provide the full path ex: C:\Users\Name\Drive - drive\Documents")
+else:
+    print(directory)
+    organize_directory(directory)
 
 
